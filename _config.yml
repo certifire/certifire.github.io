@@ -1,6 +1,31 @@
----
-exclude: ['README.markdown']
-permalink: ':title'
-highlighter: pygments
-safe: false
-title: 'Carte'
+title: jekyll-rtd-theme
+lang: en
+description: Opinionated github flavored standard document theme for open source projects, with few options, but everything!
+
+theme: null
+
+debug:
+  compress: true
+  dist: false
+  shortcodes: true
+
+readme_index:
+  with_frontmatter: true
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+
+exclude:
+  - Makefile
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
