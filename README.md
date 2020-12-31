@@ -4,16 +4,9 @@ Organizations risk losing revenue, customers, and reputation, and exposing inter
 
 ## What do we do?
 We provide a certificate management platform that provides a safe and reliable way to
-* create
-* delete
+* issue
+* renew
+* revoke
+Certificates from any ACME server.
 
-and
-* renew certificates
-
-## Writing
-
-Document writing specifications, please refer to [rundocs.io](https://rundocs.io) for details
-
-## The license
-
-The theme is available as open source under the terms of the MIT License
+Checkout [certifire](https://github.com/certifire/certifire)
